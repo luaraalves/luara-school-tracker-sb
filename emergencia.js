@@ -169,14 +169,14 @@ window.gerarRelatorioAbandono = function() {
                 <p><strong>Status do Protocolo:</strong> CONCLUÍDO COM SUCESSO</p>
                 <p><strong>Tempo Total de Evacuação:</strong> ${tempoEvacuacao}</p>
                 <p><strong>Total de Alunos na Unidade:</strong> ${totalPresentes}</p>
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js&quot;;
-import { getDatabase, ref, onValue, update } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js&quot;;
-import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js&quot;;
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js;
+import { getDatabase, ref, onValue, update } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js;
+import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js;
 
 const firebaseConfig = {
     apiKey: "Minha API",
     authDomain: "Meu dominio",
-    databaseURL: "Meu URL";,
+    databaseURL: "Meu URL",
     projectId: "school-tracker-2026"
 };
 
