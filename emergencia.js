@@ -3,7 +3,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 /* =========================================================
    INICIALIZAÇÃO DO SUPABASE CLIENT
    ========================================================= */
-const SUPABASE_URL = 'https://idrgkydbpfmslklvjldd.supabase.co;;
+const SUPABASE_URL = 'https://idrgkydbpfmslklvjldd.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlkcmdreWRicGZtc2xrbHZqbGRkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MTk3NDI5MSwiZXhwIjoyMTA3NTUwMjkxfQ.IrGe-xCmoA4PivB0E5Ojw-Zs1ShH7u8EqpwpWZ0XvZY'; // Insira a sua chave anon public
 
 const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -11,6 +11,8 @@ const supabaseClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 let tempoInicial = Date.now();
 let inicioEmergencia = 0;
 
+
+/* =========================================================
 
 /* =========================================================
    CRONÔMETRO
